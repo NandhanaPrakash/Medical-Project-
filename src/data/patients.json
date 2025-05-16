@@ -1,0 +1,82 @@
+{
+  "patient123": {
+    "id": "patient123",
+    "username": "john.doe",
+    "password": "password123",
+    "bmi": 24.5,
+    "glucoseLevel": 95,
+    "sleepHours": 7.8,
+    "physicalActivity": "30 mins walking",
+    "calorieIntake": 2000,
+    "waterIntake": 2200,
+    "bloodPressure": "120/80",
+    "heartRate": 72,
+    "healthHistory": {
+      "bmi": [
+        { "date": "2023-10-01", "value": 25.1 },
+        { "date": "2023-10-15", "value": 24.8 },
+        { "date": "2023-11-01", "value": 24.5 }
+      ],
+      "glucose": [
+        { "date": "2023-10-01", "value": 98 },
+        { "date": "2023-10-08", "value": 102 },
+        { "date": "2023-10-15", "value": 95 }
+      ],
+      "sleep": [
+        { "date": "2023-11-01", "value": 7.5 },
+        { "date": "2023-11-02", "value": 8.0 },
+        { "date": "2023-11-03", "value": 7.8 }
+      ],
+      "activity": [
+        { "date": "2023-11-01", "value": 30 },
+        { "date": "2023-11-02", "value": 45 },
+        { "date": "2023-11-03", "value": 35 }
+      ],
+      "calories": [
+        { "date": "2023-11-01", "value": 2100 },
+        { "date": "2023-11-02", "value": 1950 },
+        { "date": "2023-11-03", "value": 2050 }
+      ]
+    }
+  },
+  "patient456": {
+    "id": "patient456",
+    "username": "jane.smith",
+    "password": "securepass",
+    "bmi": 28.2,
+    "glucoseLevel": 110,
+    "sleepHours": 6.5,
+    "physicalActivity": "15 mins yoga",
+    "calorieIntake": 1800,
+    "waterIntake": 1800,
+    "bloodPressure": "135/85",
+    "heartRate": 78,
+    "healthHistory": {
+      "bmi": [
+        { "date": "2023-10-01", "value": 28.5 },
+        { "date": "2023-10-15", "value": 28.3 },
+        { "date": "2023-11-01", "value": 28.2 }
+      ],
+      "glucose": [
+        { "date": "2023-10-01", "value": 115 },
+        { "date": "2023-10-08", "value": 108 },
+        { "date": "2023-10-15", "value": 110 }
+      ],
+      "sleep": [
+        { "date": "2023-11-01", "value": 6.0 },
+        { "date": "2023-11-02", "value": 6.5 },
+        { "date": "2023-11-03", "value": 7.0 }
+      ],
+      "activity": [
+        { "date": "2023-11-01", "value": 15 },
+        { "date": "2023-11-02", "value": 20 },
+        { "date": "2023-11-03", "value": 15 }
+      ],
+      "calories": [
+        { "date": "2023-11-01", "value": 1850 },
+        { "date": "2023-11-02", "value": 1750 },
+        { "date": "2023-11-03", "value": 1800 }
+      ]
+    }
+  }
+}
