@@ -1,0 +1,11 @@
+faiss-cpu
+ctransformers
+llama-cpp-python
+spacy
+thinc
+numpy
+scipy
+scikit-learn
+torch
+transformers
+sentence-transformers
