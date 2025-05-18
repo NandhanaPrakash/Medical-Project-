@@ -1,3 +1,6 @@
 backend/Medbot/data_clean/*.pkl filter=lfs diff=lfs merge=lfs -text
 backend/Medbot/data_clean/*.faiss filter=lfs diff=lfs merge=lfs -text
 backend/Medbot/data_clean/processed/*.csv filter=lfs diff=lfs merge=lfs -text
+*.pkl filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
+*.faiss filter=lfs diff=lfs merge=lfs -text
